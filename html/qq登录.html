@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<head>
+  <title>QQ注册验证</title>
+</head>
+
+<body>
+    <h1><img src="/images/bg_chs.png"></h1>
+昵称
+<input name = "姓名" type = "text"  size= "21"placeholder="请输入要搜索的关键字" >
+长度为4-10个字符
+<br>
+密码
+<input name = "密码" type = "password"  size= "21" >
+长度为6-16个字符
+<br>
+确认密码
+<input name = "密码" type = "password"  size= "21" >
+长度为6-16个字符
+<br>
+手机号码
+<input type="tel" required pattern="^1[358]\d{9}"  />
+<br>
+邮箱
+<input type="email" >
+<br>
+年龄
+<input type="number">
+<input name="agree" type="checkbox" />
+我认真阅读并接受以上协议
+<br>
+经验
+<select name="经验">
+<option value="0" selected="selected">无经验</option>
+<option value="1">1年经验</option>
+<option value="2">2年经验</option>
+</select>
+<br>
+<input name="btn" type="submit" value="提交" disabled="disabled" />
+<input name="reset" type="reset" value="重置" />
+
+
+</form>
+</body>
+
+</html>
